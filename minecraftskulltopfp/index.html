@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>minecraft skull to pfp</title>
+
+		<link rel="stylesheet" href="css.css">
+		<link rel="icon" type="image/x-icon" href="favicon.svg">
+
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content="converts a minecraft skin to a pfp by doing a top-down orthographic projection"/>
+	</head>
+
+
+	<body>
+		<main>
+			<div class="center_text">
+				<h1>pfp-ifier?</h1>
+				<hr>
+				<p id="description">converts your minecraft skin into a pfp by doing a top-down orthographic projection (🤓) on the textures of the skull</p>
+			</div>
+
+			<div class="container_wrapper_media">
+				<div class="wrapper_media">
+					<!-- tailwind?! -->
+					<img class="media" id="img_input">
+					<h4 class="center_text clickable" id="heading_upload">upload your skin</h4>
+				</div>
+	
+				<div class="wrapper_media">
+					<canvas class="media" id="canvas_result"></canvas>
+					<h4 class="center_text clickable" id="heading_download">download your pfp</h4>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<hr>
+			<p>made with &lt;3</p>
+		</footer>
+	</body>
+
+	<script src="js.js"></script>
+</html>
